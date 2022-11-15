@@ -1,8 +1,10 @@
+/*
 function MainContent() {
     return (
         <h1>I'm learning React!</h1>
     )
 }
+*/
 
 /*
 
@@ -15,8 +17,19 @@ document.getElementById("root").append(h1)
 
  */
 
+const page = (
+    <nav>
+        <h1>Welcome to Hara's Website</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+
+
 ReactDOM.render(
-    <div>
-        <MainContent />
-    </div>,
+    page,
     document.getElementById("root"));
