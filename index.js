@@ -17,20 +17,23 @@ document.getElementById("root").append(h1)
 
  */
 
-const page = (
-    <nav>
-        <h1>Why I love React</h1>
-        <ul>
-            <li>It's composable</li>
-            <li>It's declarative</li>
-            <li>It's a hireable skill</li>
-            <li>It's actively maintained by skilled people</li>
-
-        </ul>
-    </nav>
-)
+function temporaryName() {
+    return (
+        <div>
+            <img src="react-logo.png" width="40"/>
+            <h1>Fun facts about React</h1>
+            <ul>
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100K starts on Github</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
+        </div>
+        )
+}
 
 ReactDOM.render(
-    page,
+    temporaryName(),
     document.getElementById("root"));
 
