@@ -17,23 +17,29 @@ document.getElementById("root").append(h1)
 
  */
 
-function temporaryName() {
+function page() {
     return (
         <div>
-            <img src="react-logo.png" width="40"/>
-            <h1>Fun facts about React</h1>
-            <ul>
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100K starts on Github</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
+            <header>
+                <nav>
+                    <img src="react-logo.png" width="40px"/>
+                </nav>
+            </header>
+            <h1>Reasons I'm excited to learn React</h1>
+            <ol>
+                <li>It's a popular library, so I'll be able to fit in with the cool kids!</li>
+                <li>I'm more likely to get a job as a developer if I know React!</li>
+            </ol>
+            <footer>
+                <small>© 2022 HaraChu Development. All rights reserved.</small>
+            </footer>
+
         </div>
-        )
+
+    )
 }
 
 ReactDOM.render(
-    temporaryName(),
+    page(),
     document.getElementById("root"));
 
