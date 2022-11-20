@@ -2,3 +2,28 @@ html, body {
     margin: 10px;
     padding: 10px;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px darkgrey;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 10px;
+}
+
+.nav-logo {
+    width: 40px;
+}
+
+.footer {
+    height: 20px;
+    background-color: darkgrey;
+}

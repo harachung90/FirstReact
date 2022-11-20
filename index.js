@@ -20,8 +20,13 @@ document.getElementById("root").append(h1)
 function Header() {
     return (
         <header>
-            <nav>
-                <img src="react-logo.png" width="40px"/>
+            <nav className="nav">
+                <img src="react-logo.png" className="nav-logo"/>
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
@@ -41,7 +46,7 @@ function MainContent() {
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <small>© 2022 HaraChu Development. All rights reserved.</small>
         </footer>
     )
